@@ -35,19 +35,17 @@ Grouping constructs are used to capture and extract specific parts of the email 
     This part captures the top level part of the domain (TLD) part of the email address. It matches the lowercase letters and dots with a length between 2-3 characters
 
 ### Bracket Expressions
-Bracket expressions also known as character class are used to define a set of characters.
+Bracket expressions are used to define a set of characters.
 - [a-z0-9_\.-] The first part a-z matches the lowercase letter, 0-9 digits, _\.- underscores, dots and hyphens.
 - [\da-z\.-] The character class matches lowercase letters, dots and hyphens.
 - [a-z\.] this matches any lower case letters and  literal dot.
 
 ### Character Classes
-
-### The OR Operator
-
-### Flags
+\d matches any digits, it is a shorthand character class that represents a single digit. It is equivalent to the character range [0-9]
 
 ### Character Escapes
+\. Here the `\` character Escapes the dot character, allowing it to match a literal dot.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Learn more about the author of this tutorial and find a link to their GitHub profile.
